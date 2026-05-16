@@ -15,7 +15,7 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "25.5.2",
-    "babel-plugin-react-compiler":"19.2.14",
+    "babel-plugin-react-compiler":"latest",
     "tailwindcss": "^4",
     "typescript": "6.8.2"
     
