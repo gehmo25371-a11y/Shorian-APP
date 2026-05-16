@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* إجبار الصفحة كلها على المود المظلم الفخم */
+html, body {
+  background-color: #0d1117 !important;
+  color: #f0f6fc !important;
+  font-family: sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* إضافة إضاءات خلفية ملونة ناعمة لكسر الملل وزيادة الاحترافية */
+body {
+  position: relative;
+  background-image: 
+    radial-gradient(circle at 10% 20%, rgba(29, 78, 216, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.12) 0%, transparent 45%);
+  background-attachment: fixed;
+}
+
+/* الكروت الزجاجية المظلمة الاحترافية */
+.glass-card {
+  background: rgba(22, 27, 34, 0.85) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* الأزرار المضيئة التفاعلية */
+.btn-glow-blue {
+  background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.35);
+  transition: all 0.3s ease;
+}
+.btn-glow-blue:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(37, 99, 235, 0.55);
+}
+
+.btn-glow-amber {
+  background: linear-gradient(135deg, #d97706 0%, #f59e0b 100%);
+  box-shadow: 0 4px 20px rgba(245, 158, 11, 0.3);
+  transition: all 0.3s ease;
+}
+.btn-glow-amber:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 25px rgba(245, 158, 11, 0.5);
+}
